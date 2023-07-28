@@ -137,6 +137,6 @@ let userName = "Darshil";
 let userLanguage = "english";
 console.log(generateWelcomeMessage(userName, userLanguage));
 
-let userName2 = "Niyati";
+let userName2 = "Niyu";
 let userLanguage2 = "spanish";
 console.log(generateWelcomeMessage(userName2, userLanguage2));
