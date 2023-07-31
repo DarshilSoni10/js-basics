@@ -6,8 +6,31 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Hello World </h1>
-    <h2> My name is Darshil Soni, and I am learning JavaScript </h2>
+    <h1> Hello </h1>
+    <h2 style="font: 1em sans-serif;"> My name is Darshil Soni, and I am learning JavaScript </h2>
+<hr>
+    <p style="font: 1em sans-serif;"> JavaScript is a high-level, interpreted programming language primarily used for web development.<br> It is known as the "language of the web" as it enables interactivity and dynamic content on websites.<br> JavaScript was initially created by Brendan Eich at Netscape and was first introduced in 1995.<br>
+    </p>
+<hr>
+    <p> Below is the attachment of the Youtube Videos Link from where I am learning JavaScript:</p>
+    <a href="https://youtu.be/2nZiB1JItbY"> DevelopedbyED</a> 
+<br>
+<hr>
+    
+    <p id="demo"> Let me show you who you are!</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "You are a SNAKE!"'> 
+        Dive into the Reality! </button>
+<br>
+<hr>
+
+    <p> Let's turn the bulb on and off </p>
+    <button onclick="document.getElementById('myImage').src='https\://www.w3schools.com/jsref/pic_bulbon.gif'"> Turn on the light</button>
+
+    <img id="myImage" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='https\://www.w3schools.com/js/pic_bulboff.gif'"> Turn of the light</button>
+<hr>
+
     <script src="functions.js"></script>
     <script src="strings.js"></script>
 </body>

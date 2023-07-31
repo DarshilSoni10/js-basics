@@ -140,3 +140,36 @@ console.log(generateWelcomeMessage(userName, userLanguage));
 let userName2 = "Niyati";
 let userLanguage2 = "spanish";
 console.log(generateWelcomeMessage(userName2, userLanguage2));
+
+// Solution 3: Calculate the grade of the student based on their exam score
+
+function calculateGrade(score) {
+    let grade = "";
+
+    if (score >= 90) {
+        grade = "A";
+    } else if (score >= 80){
+        grade = "B+";
+    } else if (score >= 70){
+        grade = "B";
+    } else if (score >= 60){
+        grade = "C";
+    } else if (score >= 40){
+        grade = "D";
+    } else {
+        grade = "F";
+    }
+
+    return grade;
+} 
+
+let studentScore1 = 90;
+console.log("Your grade is: "+ calculateGrade(studentScore1)); // Output: Your grade is: A
+
+let studentScore2 = 30;
+console.log("Your grade is: "+ calculateGrade(studentScore2)); // Output: Your grade is: F
+
+let studentScore3 = 80;
+console.log("Your grade is: "+ calculateGrade(studentScore3)); // Output: Your grade is: B+
+
+
