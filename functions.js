@@ -93,4 +93,4 @@ console.log(isMultipleOf(100, 4)); // Output: true
 
 let x, y;
 x = 105;
-console.log(x-100);
+console.log(x100);
