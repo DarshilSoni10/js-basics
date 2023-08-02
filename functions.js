@@ -90,3 +90,7 @@ function isMultipleOf(number, multiple) {
 console.log(isMultipleOf(10, 2)); // Output: true
 console.log(isMultipleOf(20, 4)); // Output: true
 console.log(isMultipleOf(100, 4)); // Output: true
+
+let x, y;
+x = 105;
+console.log(x-100);
