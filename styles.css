@@ -24,6 +24,27 @@
   opacity: 0.5;
 }
 
+.print{
+  background-color: black;
+    color: white;
+    border-radius: 1%;
+    cursor: pointer;
+    border-width: 1px;
+    height: 28px;
+    width: 108px;
+    font-size: 12;
+    transition: opacity 0.40s;
+  }
+
+  .print:hover{
+    opacity: 0.6;
+    color: black;
+    background-color: white;
+  }
+
+  .print:active{
+    opacity: 0.5;
+}
 
 .newtons-cradle {
   --uib-size: 50px;
